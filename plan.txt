@@ -1,0 +1,12 @@
+1. Build the projecdt
+   - creating the folder //was not required till Dec 11, 2021
+   - adding files
+   - connecting files
+2. Navbar
+   - 3 parts: 
+     - contact info
+     - 5 links
+     - Builder's Name
+     - Company's logo
+3.
+

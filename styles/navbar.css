@@ -1,0 +1,106 @@
+
+/*simple navbar editing*/
+.navbar{
+    height:150px;
+    background-color: rgb(76, 30, 119);
+    color: rgb(115, 187, 187);
+    /*flexbox*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom:60px;
+    padding-right: 100px;
+}
+
+.center-wrapper{
+    width: 350px;
+    /* height: 50px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.link-wrapper > .link{ 
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper > .link > a{ 
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+}
+
+.link-wrapper > .link > a:hover{
+    letter-spacing: 2px; 
+    color:gold;
+}
+
+.center-wrapper > .image-banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar > .center-wrapper > .image-banner  img{
+    width: 216px;
+    height: 100%;
+}
+
+/* Left side navbar */
+
+.left-item-wrapper {
+    display: flex;
+    align-items: center;
+    color: white ;
+}
+.left-item-wrapper > .address{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+}
+
+.navbar>.left-item-wrapper>.icon > i {
+    font-size: 2em;
+    padding-right: 8px;
+}
+
+.left-item-wrapper > .address > .left-item2{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* Right side Navbar */
+.right-item-wrapper > .company-name {
+    display: flex;
+    align-items: center;
+}
+
+.right-item-wrapper > .company-name > a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-decoration: none;
+    color: #858585;
+    transition: 0.5s;
+
+}
+
+.right-item-wrapper > .company-name> a:hover{
+    color: gold;
+}
+.right-item-wrapper > .company-name>.icon> a{
+    font-size: 2em;
+    color: white;
+    padding-left: 8px;
+    transition: 0.5s;
+}
+
+.right-item-wrapper > .company-name>.icon> a:hover{
+    color: gold;
+}
+

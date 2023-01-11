@@ -1,0 +1,7 @@
+/* only those styles are included here that are really common to every page  */
+body {
+    display: block;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}

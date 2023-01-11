@@ -1,0 +1,21 @@
+.btn{
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #cea135; 
+    /* since many browser by default add ugly border so 
+    we add border, with color equal to backgroud */
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.center-button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn:active {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+}
